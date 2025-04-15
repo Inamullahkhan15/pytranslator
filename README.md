@@ -31,49 +31,6 @@ The project requires the following Python packages, which are listed in the `req
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 
-## Creat a Virtual Environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-## Install Required Dependencies
-
-Collecting workspace informationHere is a `README.md` file for your project:
-
-```markdown
-# Python Translator
-
-This is a simple Python-based translator application that uses the `googletrans` library to translate text asynchronously. The project demonstrates the use of asynchronous programming with `asyncio` and the `googletrans` library for language translation.
-
-## Features
-
-- Translates text from one language to another.
-- Asynchronous execution using Python's `asyncio`.
-- Automatically detects the source language if not specified.
-
-## Requirements
-
-The project requires the following Python packages, which are listed in the `requirements.txt` file:
-
-- `anyio==4.9.0`
-- `certifi==2025.1.31`
-- `googletrans==4.0.2`
-- `h11==0.14.0`
-- `h2==4.2.0`
-- `hpack==4.1.0`
-- `httpcore==1.0.7`
-- `httpx==0.28.1`
-- `hyperframe==6.1.0`
-- `idna==3.10`
-- `sniffio==1.3.1`
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-
 2. Create a virtual environment (optional but recommended):
    ```bash
    python -m venv venv
